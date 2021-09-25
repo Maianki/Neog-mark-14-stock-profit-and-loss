@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&display=swap');
+:root{
+    --primary-color:#FF9900;
+    --secondary-color:#000000;
+}
+
+body{
+    text-align: center;
+    background-color: var(--primary-color);
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: var(--secondary-color);
+}
+
+label{
+    font-size: large;
+}
+
+input{
+    display: block;
+    margin: 0rem auto;
+    margin-top: .5rem;
+    margin-bottom: 1rem;
+    padding: .5rem;
+    width: 240px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    border-radius: .25rem;
+    box-shadow: 1px 1px black;
+}
+
+.btn-submit{
+    display: block;
+    margin: 2rem auto;
+    font-family: 'IBM Plex Sans', sans-serif;
+    width: 150px;
+    padding: .5rem;
+    font-size: larger;
+    border-radius: .25rem;
+    box-shadow: 1px 1px var(--secondary-color);
+}
+
+.btn-submit:hover{
+    color: white;
+    background-color: var(--secondary-color);
+    
+}
+footer{
+    margin-top: 5rem;
+}
+
+footer ul{
+   padding-inline-start: 0px;
+}
+.socials{
+    list-style: none;
+    display: inline;
+    padding: 2rem;
+    padding: 1rem;
+}
+
+.output-display{
+   display: none;
+   padding: .5rem;
+   border-radius: .5rem;
+   font-size: larger;
+   width: 60vw;
+   margin: 2.5rem auto;
+   background-color:var(--secondary-color);
+}
+
