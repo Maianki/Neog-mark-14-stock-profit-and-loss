@@ -38,7 +38,7 @@ function calculateProfitLoss(){
 
         displayOutput.style.color = "green"
         displayOutput.style.display = "block"
-        displayOutput.innerText = `🤩Your profit is ${totalProfit} and profit percentage is ${profitPercentage.toFixed(2)}🤩`
+        displayOutput.innerText = `🤩Your profit is ${totalProfit} and profit percentage is ${profitPercentage.toFixed(2)}%🤩`
 
         
 
@@ -48,7 +48,7 @@ function calculateProfitLoss(){
         var totalLoss = (loss * qty).toFixed(2)
         displayOutput.style.color = "red"
         displayOutput.style.display = "block"
-        displayOutput.innerText = `😪Your loss is ${totalLoss} and loss percentage is ${lossPercentage.toFixed(2)}😪`
+        displayOutput.innerText = `😪Your loss is ${totalLoss} and loss percentage is ${lossPercentage.toFixed(2)}%😪`
 
     }else{
         displayOutput.style.color = "white"
