@@ -3,5 +3,5 @@ A simple web app built on HTML, CSS and Vanila Js. It calculates the profit, pro
 ## Built on:
 HTML, CSS and Javascript
 
-##Project's github link:
+## Project's github link:
 https://stocks-loss-profit-calculator.netlify.app/
